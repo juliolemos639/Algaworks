@@ -23,7 +23,6 @@ public class Pessoa {
 	@NotNull
 	private String nome;
 	
-	@Valid
 	@Embedded
 	private Endereco endereco;
 	
@@ -96,8 +95,4 @@ public class Pessoa {
 	}
 	
 	
-	
-	
-	
-
 }

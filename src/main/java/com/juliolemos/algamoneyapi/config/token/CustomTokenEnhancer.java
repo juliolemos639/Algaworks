@@ -10,6 +10,7 @@ import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 
 import com.juliolemos.algamoneyapi.security.UsuarioSistema;
 
+
 public class CustomTokenEnhancer implements TokenEnhancer {
 
 	@Override
